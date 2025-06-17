@@ -1,0 +1,10 @@
+# .gitignore
+node_modules/
+.env
+client/build/
+.DS_Store
+build/
+dist/
+*.log
+# *.db
+reports/

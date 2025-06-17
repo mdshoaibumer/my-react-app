@@ -1,0 +1,57 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.app-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 0;
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.app-footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #ecf0f1;
+  border-top: 1px solid #ddd;
+}
+
+/* Add smooth transitions */
+.MuiAccordion-root {
+  transition: all 0.3s ease;
+}
+
+/* Improve table readability */
+.MuiTableCell-root {
+  font-size: 0.875rem;
+}
+
+/* Better tab styling */
+.MuiTabs-indicator {
+  height: 4px;
+}
+
+/* Card hover effects */
+.MuiCard-root:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-main {
+    padding: 10px;
+  }
+  
+  .MuiGrid-container {
+    flex-direction: column;
+  }
+}
